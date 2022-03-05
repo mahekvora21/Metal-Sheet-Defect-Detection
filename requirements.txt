@@ -1,0 +1,17 @@
+# external requirements
+catalyst==19.10.2
+efficientnet_pytorch
+wandb
+install lz4
+segmentation_models_pytorch
+numpy
+pandas
+torch
+torchvision
+pathlib
+jpeg4py
+
+#for apex with cuda_ext
+git clone https://github.com/NVIDIA/apex
+os.chdir('./apex')
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
