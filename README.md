@@ -58,4 +58,12 @@ python train_cls.py --config config/cls/002_efnet_b3_cls_BCE_5class_fold1.yml
 python train_cls.py --config config/cls/003_seresnext50_cls_BCE_5class_fold2.yml
 ```
 
+Segmentation models
+------------
+```
+python train_seg.py --config config/seg/001_resnet18_Unet_fold0.yml
+python train_seg.py --config config/seg/002_resnet18_PSPNet_fold0.yml
+python train_seg.py --config config/seg/003_resnet50_fpn_fold0.yml
+```
+
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
