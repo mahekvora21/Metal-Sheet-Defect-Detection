@@ -3,6 +3,8 @@
 
 ## A metal sheet defect classifier, locater using PyTorch
 
+You can view the 1st part of the project here [github.com/mahekvora21/Metal-Sheel-Defects-Binary-Classification](https://github.com/mahekvora21/Metal-Sheel-Defects-Binary-Classification)
+
 Project Organization
 ------------
 
