@@ -56,8 +56,7 @@ Classification models
 ```
 python split_folds.py --config config/base_config.yml
 python train_cls.py --config config/cls/001_resnet50_BCE_5class_fold0.yml
-python train_cls.py --config config/cls/002_efnet_b3_cls_BCE_5class_fold1.yml
-python train_cls.py --config config/cls/003_seresnext50_cls_BCE_5class_fold2.yml
+
 ```
 
 Segmentation models
