@@ -12,8 +12,6 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── datasets           <- File containig the dataloaders
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── config             
@@ -33,7 +31,7 @@ Project Organization
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
 
 
 --------
@@ -56,15 +54,12 @@ Classification models
 ```
 python split_folds.py --config config/base_config.yml
 python train_cls.py --config config/cls/001_resnet50_BCE_5class_fold0.yml
-
 ```
 
 Segmentation models
 ------------
 ```
 python train_seg.py --config config/seg/001_resnet18_Unet_fold0.yml
-python train_seg.py --config config/seg/002_resnet18_PSPNet_fold0.yml
-python train_seg.py --config config/seg/003_resnet50_fpn_fold0.yml
 ```
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
